@@ -1,22 +1,109 @@
+/** {
+  border: thin solid red;
+}
+*/
 body {
   background: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #7d7d7d;
+  color: white;
   font-size: 15px;
   line-height: 1.6em;
   }
 
 h1,h2,h3 {
-  color: black;
+  color: white;
   font-family: 'Open Sans', sans-serif;
+  t
 }
 
+h1{
+  margin: 5px;
+  padding: 20px;
+}
+h2{
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px
+  background-color:#3E3942;
+}
+
+p{
+  margin:5px;
+  padding:10px;
+
+}
 a {
-  color: purple;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-    background-color: white;
+    background-color: none;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.card {
+  background-color: #6F7074;
+  box-shadow: 2px 2px 3px black;
+ /* border-radius: 5%;*/
+}
+
+.movie-pic{
+border-radius: 25%;
+width: 120px;
+padding: 20px;
+}
+
+.btn-red{
+  background-color:#352929;
+  color: white;
+  border-radius: 3px;
+}
+
+.movie-title{
+  background-color: #3E3942;
+  border-radius: 5px;
+  box-shadow: gray;
+  font-size: 15px;
+}
+
+.my-name{
+  background-color:#3E3942;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about{
+  background-color: #3E3942;
+  padding 10px;
+  margin 10px;
+  border-radius: 5px;
+  font-size: 15px;
 }
